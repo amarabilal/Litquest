@@ -1,8 +1,8 @@
 <template>
     <div
-      class="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-white dark:bg-zinc-900 text-gray-800 dark:text-white"
+      class="flex flex-col items-center justify-center text-center px-6 bg-white text-gray-900 dark:bg-gray-900 dark:text-white"
     >
-      <!-- 📚 Livre animé -->
+      <!-- Livre animé -->
       <Motion
         :initial="{ opacity: 0, y: -30 }"
         :enter="{ opacity: 1, y: 0, transition: { type: 'spring', stiffness: 200 } }"
@@ -23,14 +23,16 @@
         </svg>
       </Motion>
   
-      <!-- 🧾 Texte animé -->
+      <!-- Texte animé -->
       <Motion
         :initial="{ opacity: 0, scale: 0.95 }"
         :enter="{ opacity: 1, scale: 1, transition: { delay: 0.2 } }"
       >
         <h1 class="text-6xl font-extrabold text-amber-600 mb-4">404</h1>
         <p class="text-xl mb-2">Page introuvable</p>
-        <p class="text-gray-600 dark:text-gray-400 mb-6">Ce livre semble introuvable dans notre collection.</p>
+        <p class="text-gray-600 dark:text-gray-400 mb-6">
+          Ce livre semble introuvable dans notre collection.
+        </p>
   
         <NuxtLink
           to="/"
@@ -41,8 +43,3 @@
       </Motion>
     </div>
   </template>
-  
-  <script setup lang="ts">
-  import { Motion } from '@vueuse/motion'
-  </script>
-  
