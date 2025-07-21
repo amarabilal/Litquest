@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center text-sm text-gray-500 dark:text-gray-400 py-6 border-t border-gray-200 dark:border-gray-700 mt-12">
+  <footer class="text-center text-sm text-gray-500 dark:text-gray-400 py-6 border-t border-gray-200 dark:border-gray-700 mt-6">
     <div class="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4">
       <NuxtLink
         to="/charte"

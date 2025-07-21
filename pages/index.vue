@@ -1,18 +1,5 @@
 <template>
-  <section class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white px-6 pt-12 pb-24">
-    <!-- 📘 Animation livre -->
-    <div class="flex justify-center mb-6">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="w-16 h-16 text-amber-600 animate-float"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M4 19.5A2.5 2.5 0 016.5 17H20m-14 2.5V5a2.5 2.5 0 012.5-2.5H20v14.5H6.5A2.5 2.5 0 014 19.5z" />
-      </svg>
-    </div>
+  <section class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white px-6 pt-12 pb-6">
 
     <!-- 🧭 Accroche principale -->
     <div class="max-w-4xl mx-auto text-center space-y-6 mb-16">
